@@ -1,0 +1,128 @@
+<style>
+    /*样式写这里*/
+    .kaixin-table table tbody tr td span{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width:580px;
+        display:block;
+    }
+
+</style>
+<div class="bt-form">
+    <div class="bt-w-main">
+        <div></div>
+        <div style="overflow:hidden">
+            <div class="col-sm-4">
+                 <button class="btn btn-sm btn-success" onclick="three_soft.update_soft_list();" style="
+    margin-top: 10px;" >更新软件列表</button>
+             </div>	
+        </div>	
+        <div class="divtable pd15">
+            <div class="divtable">
+                <table class="table table-hover waftable" >
+                    <thead >
+                        <tr>
+                           <th class="col-sm-2">插件名</th>
+                           <th class="col-sm-1">版本</th>
+                           <th class="col-sm-1">作者</th>
+                           <th class="col-sm-5">说明</th>
+                           <th class="col-sm-1">操作</th>
+                        </tr>
+                    </thead>
+                    <tbody id="soft_list">
+
+                    </tbody>
+                </table>
+                <ul class="help-info-text c7" >
+                    <li>点击插件名称可以打开项目地址，以查看更多插件信息。</li>
+                    <li>点击作者名称可以打开作者官方网站，以查看作者更多作品。</li>
+                    <li>如有使用问题欢迎加入宝塔站长交流群365208828交流完善。</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+
+    //定义窗口尺寸
+    $('.layui-layer-page').css({ 'width': '900px' });
+    var three_soft = {
+        get_soft_list:function(){
+            three_soft.send_request('get_soft_list','get',{},(res)=>{
+               var html = "";
+               res.data.forEach((val)=>{
+                   if(val.exists){
+                       if(val.local_version == val.version){
+                            var state = "修复";
+                       }else{
+                            var state = "更新";
+                       }
+                   }else{
+                       var state = '安装';
+                   }
+                   
+                   html += '<tr title=\''+val.name+'\'>\
+                    <td><a href=\"'+val.project+'\" target="_blank">'+val.title+'</a></td>\
+                    <td>'+val.version+'</td>\
+					<td><a href=\"'+val.home+'\" target="_blank">'+val.author+'</a></td>\
+					<td>'+val.ps+'</td>\
+                    <td><a class=\"btlink\" onclick=\"three_soft.install_soft(\''+val.name+'\',\''+val.download+'\');\">'+state+'</a></td>\
+				</tr>';
+               })
+                $("#soft_list").html('');
+                $("#soft_list").append(html);
+            })
+            
+        },
+        update_soft_list:function(){
+            three_soft.loading = layer.msg('更新中',{icon:16});
+            three_soft.send_request('update_soft_list','get',{},(res)=>{
+               three_soft.get_soft_list()
+               layer.close(three_soft.loading);
+               layer.msg(res.msg,{icon:1,time:1500});
+            })
+            
+        },
+        install_soft:function(name,download){
+            layer.confirm('是否确认安装 '+name+'插件？', {
+                  btn: ['确认','取消']
+                }, function(){
+                    three_soft.loading = layer.msg('安装中',{icon:16,time:100000});
+                    three_soft.send_request('install_soft','post',{'name':name,'download':download,'error':true,})
+                    three_soft.check_install_status(name)
+                });
+            
+        },
+        check_install_status:function (name){
+            setTimeout(()=>{
+                three_soft.send_request('get_install_status','post',{'name':name},(res)=>{
+                      if(res.data.status==1){
+                          layer.close(three_soft.loading);
+                          layer.msg('插件['+name+']安装成功!',{icon:1,time:1500});
+                          three_soft.get_soft_list()
+                      }
+                      else three_soft.check_install_status(name);
+                })
+            },1500)
+       },
+        send_request:function(api,type,data,success,timeout=8000,error){
+            $.ajax({
+                url:'/three_soft/' + api + ".json?t=" +  Date.now(),
+                type:type,
+                data:data,
+                timeout:timeout,
+                success:(res)=>{success(res)},
+                error:(err)=>{
+                    if(!data.error){
+                        if(error) error(err);
+                        else layer.msg('请求接口[' + api + ']出错',{icon:5,timeout:1500});
+                    }
+                }
+
+            })
+        }
+    }
+    three_soft.get_soft_list()
+</script>

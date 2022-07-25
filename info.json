@@ -1,0 +1,9 @@
+{
+  "title": "第三方开源插件商店",
+  "name": "three_soft",
+  "ps": "这是一个包含了第三方开源插件的软件商店",
+  "versions": "1.0",
+  "checks": "/www/server/panel/plugin/three_soft",
+  "author": "GacJie",
+  "home": "https://www.baota.me"
+}
