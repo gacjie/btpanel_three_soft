@@ -2,17 +2,24 @@
 
 ###### 简单介绍
 这是一个宝塔插件，独立于宝塔软件商店的一个插件商店。支持安装，修复，更新。   
-原计划，做一个基于github的软件商店，插件作者将自己的插件上传到github,然后提交到本项目，我只需要维护列表，下载均从插件作者github项目内下载。   
-插件内点击插件名称，可以直接打开项目地址，用户可以查看更多插件相关信息，同时在安装插件时，可以先审核插件代码再选择是否安装。    
-但由于各插件作者并未上传插件到github，因此只得由我自行维护插件，目前插件下载均从本人的下载站获取下载。    
+开源版本：（发布在本仓库的版本）：   
+开源版本基于github的软件商店，插件作者将自己的插件上传到github,然后提交到本项目，我只需要维护列表，下载均从插件作者github项目内下载。  
+点击插件名称可以打开项目地址，以查看更多插件信息。
+点击作者名称可以打开作者官方网站，以查看作者更多作品。
+同时在安装插件时，可以先到github项目地址审记插件代码再选择是否安装。   
+[维护版本：（网站提供的版本，点此进入网站页面）](https://www.baota.me/post-175.html)
+由于插件作者并不是每个插件都发布在github上，因此维护版本均有我个人先收集放到自己服务器上为大家提供安装使用。
 
 ###### 作品截图     
-![btpanel_tools](https://raw.githubusercontent.com/gacjie/btpanel_three_soft/main/three_soft.jpg)   
+![three_soft](https://raw.githubusercontent.com/gacjie/btpanel_three_soft/main/three_soft.jpg)   
+
+###### 项目收录  
+宝塔frpc插件：https://github.com/sang8052/btpanel_frpc
+宝塔frps插件：https://github.com/sang8052/btpanel_frps
 
 ###### 技术交流
-作品官网：www.btpanel.cm  
 技术教程：www.baota.me  
-QQ交流群：365208828       
+QQ交流群：699927761       
 TG交流群：t.me/btfans   
 
 ###### 使用方法   
@@ -25,6 +32,8 @@ TG交流群：t.me/btfans
 ()插件下载[支持下载安装插件]  
 
 ###### 更新日志：
+2023年03月26日
+发布V1.1版本
 2022年02月11日
 完成基础功能
 
