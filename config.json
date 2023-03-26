@@ -1,3 +1,8 @@
 {
-    "list":"https://www.btpanel.cm/api/ThreeSoft/get_soft_list"
+    "home":"https://www.baota.me",
+    "api":"https://dash.baota.me",
+    "download":"https://down.baota.me",
+    "language": "Simplified_Chinese",
+    "template": "default",
+    "plugin_path": "/www/server/panel/plugin/three_soft/"
 }
