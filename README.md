@@ -14,8 +14,10 @@
 ![three_soft](https://raw.githubusercontent.com/gacjie/btpanel_three_soft/main/three_soft.jpg)   
 
 ###### 项目收录  
-宝塔frpc插件：https://github.com/sang8052/btpanel_frpc    
-宝塔frps插件：https://github.com/sang8052/btpanel_frps    
+| 插件名 | 作者 | 项目 |
+| :--: | :--: | :--: |
+| 宝塔frpc插件 | IW3C | https://github.com/sang8052/btpanel_frpc |
+| 宝塔frps插件 | IW3C | https://github.com/sang8052/btpanel_frps | 
 
 ###### 技术交流
 技术教程：www.baota.me  
