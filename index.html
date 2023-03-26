@@ -24,7 +24,6 @@
                     <thead >
                         <tr>
                            <th class="col-sm-2">插件名</th>
-                           <th class="col-sm-1">版本</th>
                            <th class="col-sm-1">作者</th>
                            <th class="col-sm-5">说明</th>
                            <th class="col-sm-1">操作</th>
@@ -64,10 +63,9 @@
                    }
                    
                    html += '<tr title=\''+val.name+'\'>\
-                    <td><a href=\"'+val.project+'\" target="_blank">'+val.title+'</a></td>\
-                    <td>'+val.version+'</td>\
-					<td><a href=\"'+val.home+'\" target="_blank">'+val.author+'</a></td>\
-					<td>'+val.ps+'</td>\
+                    <td><a href=\"'+val.project+'\" target="_blank">'+val.title+'_'+val.version+'</a></td>\
+		    <td><a href=\"'+val.home+'\" target="_blank">'+val.author+'</a></td>\
+		    <td>'+val.ps+'</td>\
                     <td><a class=\"btlink\" onclick=\"three_soft.install_soft(\''+val.name+'\',\''+val.download+'\');\">'+state+'</a></td>\
 				</tr>';
                })
