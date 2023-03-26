@@ -1,15 +1,5 @@
 [{
 	"id": 1,
-	"name": "cahelper",
-	"title": "CA帮手",
-	"project": "https:\/\/www.baota.me\/post-142.html",
-	"version": "1.1",
-	"author": "xieyi1393",
-	"home": "https:\/\/www.baota.me",
-	"ps": "此插件能帮助您更好管理私有CA",
-	"download": "https:\/\/www.baota.me\/script\/three_soft\/plugin\/cahelper_1.1.zip"
-}, {
-	"id": 2,
 	"name": "frps",
 	"title": "frp服务端",
 	"project": "https:\/\/github.com\/sang8052\/btpanel_frps",
@@ -19,7 +9,7 @@
 	"ps": "提供frp服务端的图形化管理功能<a href=\"https:\/\/blog.szhcloud.cn\/blog\/2022\/08\/06\/frp-server-v3-x-helpdoc\/\" target=\"_blank\" class=\"btlink\"> &gt;详细教程<\/a>",
 	"download": "https:\/\/codeload.github.com\/sang8052\/btpanel_frps\/zip\/refs\/heads\/main"
 }, {
-	"id": 3,
+	"id": 2,
 	"name": "frpc",
 	"title": "frp客户端",
 	"project": "https:\/\/github.com\/sang8052\/btpanel_frpc",
