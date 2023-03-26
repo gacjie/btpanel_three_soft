@@ -32,8 +32,9 @@ class three_soft_main:
 
     #构造方法
     def  __init__(self):
-        config =  json.loads(public.readFile(self.__config_path))
-        self.__list_url = config['home'] + "/script/three_soft/config/get_soft_list.json"
+        #config =  json.loads(public.readFile(self.__config_path))
+        #self.__list_url = config['home'] + "/script/three_soft/config/get_soft_list.json"
+        self.__list_url = "https://raw.githubusercontent.com/gacjie/btpanel_three_soft/main/plugin.json"
         pass
 
     #从获取插件列表
