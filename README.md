@@ -14,10 +14,11 @@
 ![three_soft](https://raw.githubusercontent.com/gacjie/btpanel_three_soft/main/three_soft.jpg)   
 
 ###### 项目收录  
-| 插件名 | 作者 | 项目 |
-| :--: | :--: | :--: |
-| 宝塔frpc插件 | IW3C | https://github.com/sang8052/btpanel_frpc |
-| 宝塔frps插件 | IW3C | https://github.com/sang8052/btpanel_frps | 
+| 插件名 | 作者 | 项目地址 | 插件介绍 |
+| :--: | :--: | :--: | :--: |
+| CA帮手 | gacjie | https://github.com/gacjie/cahelper | 此插件能帮助您更好管理私有CA |
+| 宝塔frpc插件 | IW3C | https://github.com/sang8052/btpanel_frpc | 内网穿透插件frp的客户端管理插件,全面重构并开源的新版本 |
+| 宝塔frps插件 | IW3C | https://github.com/sang8052/btpanel_frps | 基于 frp 开发的GUI 管理工具, 可提供可视化的服务端管理配置功能 |
 
 ###### 技术交流
 技术教程：www.baota.me  
