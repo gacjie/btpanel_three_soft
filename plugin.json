@@ -1,1 +1,31 @@
-[{"id":1,"name":"cahelper","title":"CA帮手","project":"https:\/\/www.baota.me\/post-142.html","version":"1.1","author":"xieyi1393","home":"https:\/\/www.baota.me","ps":"此插件能帮助您更好管理私有CA","download":"https:\/\/download.btpanel.cm\/three\/plugin\/cahelper_1.1.zip"},{"id":2,"name":"frps","title":"frp服务端","project":"https:\/\/blog.szhcloud.cn\/blog\/2022\/07\/10\/bt-frp-plugin-update\/","version":"3.1.beta","author":"IW3C","home":"https:\/\/blog.szhcloud.cn","ps":"提供frp服务端的图形化管理功能","download":"https:\/\/download.btpanel.cm\/three\/plugin\/frps_v3.1.beta.zip"},{"id":3,"name":"frpc","title":"frp客户端","project":"https:\/\/blog.szhcloud.cn\/blog\/2022\/07\/10\/bt-frp-plugin-update\/","version":"3.1.beta","author":"IW3C","home":"https:\/\/blog.szhcloud.cn","ps":"内网穿透插件frp的客户端管理插件 将复杂的配置输入集成到图形化","download":"https:\/\/download.btpanel.cm\/three\/plugin\/frpc_v3.1.beta.zip"},{"id":4,"name":"baidupan","title":"百度网盘管理器","project":"https:\/\/blog.szhcloud.cn\/blog\/2021\/08\/30\/notice_bt_plugin\/","version":"1.5a","author":"IW3C","home":"https:\/\/blog.szhcloud.cn","ps":"基于百度开发者中心的api文档,抛弃github上的(bypy)前辈的臃肿架构(部分借鉴)，全新开发的网盘管理","download":"https:\/\/download.btpanel.cm\/three\/plugin\/baidupan_V1.5a.zip"},{"id":5,"name":"redisutil","title":"redis数据管理工","project":"https:\/\/www.baota.me\/post-144.html","version":"2.7","author":"liaoqiang","home":"https:\/\/www.bt.cn","ps":"redis数据查看和编辑助手","download":"https:\/\/download.btpanel.cm\/three\/plugin\/redisutil_2.7.zip"},{"id":6,"name":"ehost","title":"HOST 修改工具","project":"https:\/\/www.baota.me","version":"1.0","author":"IW3C","home":"https:\/\/blog.szhcloud.cn","ps":"简单的可视化hosts管理工具","download":"https:\/\/download.btpanel.cm\/three\/plugin\/ehost_1.0.zip"},{"id":7,"name":"dv","title":"违规站点检测","project":"https:\/\/www.licoy.cn","version":"1.0","author":"Licoy","home":"https:\/\/www.licoy.cn","ps":"宝塔网站域名违规站点检测","download":"https:\/\/download.btpanel.cm\/three\/plugin\/dv_1.0.zip"},{"id":8,"name":"aliddns","title":"阿里动态域名解析","project":"https:\/\/www.baota.me","version":"3.1","author":"helin","home":"https:\/\/www.baota.me","ps":"适合有公网IP的用户使用","download":"https:\/\/download.btpanel.cm\/three\/plugin\/aliddns_3.1.zip"}]
+[{
+	"id": 1,
+	"name": "cahelper",
+	"title": "CA帮手",
+	"project": "https:\/\/www.baota.me\/post-142.html",
+	"version": "1.1",
+	"author": "xieyi1393",
+	"home": "https:\/\/www.baota.me",
+	"ps": "此插件能帮助您更好管理私有CA",
+	"download": "https:\/\/www.baota.me\/script\/three_soft\/plugin\/cahelper_1.1.zip"
+}, {
+	"id": 2,
+	"name": "frps",
+	"title": "frp服务端",
+	"project": "https:\/\/github.com\/sang8052\/btpanel_frps",
+	"version": "3.1.beta",
+	"author": "IW3C",
+	"home": "https:\/\/github.com\/sang8052",
+	"ps": "提供frp服务端的图形化管理功能<a href=\"https:\/\/blog.szhcloud.cn\/blog\/2022\/08\/06\/frp-server-v3-x-helpdoc\/\" target=\"_blank\" class=\"btlink\"> &gt;详细教程<\/a>",
+	"download": "https:\/\/codeload.github.com\/sang8052\/btpanel_frps\/zip\/refs\/heads\/main"
+}, {
+	"id": 3,
+	"name": "frpc",
+	"title": "frp客户端",
+	"project": "https:\/\/github.com\/sang8052\/btpanel_frpc",
+	"version": "3.1.beta",
+	"author": "IW3C",
+	"home": "https:\/\/github.com\/sang8052",
+	"ps": "内网穿透插件frp的客户端管理插件 将复杂的配置输入集成到图形化<a href=\"https:\/\/blog.szhcloud.cn\/blog\/2022\/08\/06\/frp-client-v3-x-helpdoc\/\" target=\"_blank\" class=\"btlink\"> &gt;详细教程<\/a>",
+	"download": "https:\/\/codeload.github.com\/sang8052\/btpanel_frpc\/zip\/refs\/heads\/main"
+}]
