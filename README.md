@@ -7,15 +7,15 @@
 点击插件名称可以打开项目地址，以查看更多插件信息。
 点击作者名称可以打开作者官方网站，以查看作者更多作品。
 同时在安装插件时，可以先到github项目地址审记插件代码再选择是否安装。   
-[维护版本：（网站提供的版本，点此进入网站页面）](https://www.baota.me/post-175.html)
-由于插件作者并不是每个插件都发布在github上，因此维护版本均有我个人先收集放到自己服务器上为大家提供安装使用。
+[维护版本：（网站提供的版本，点此进入网站页面）](https://www.baota.me/post-175.html)   
+由于插件作者并不是每个插件都发布在github上，因此维护版本均有我个人先收集放到自己服务器上为大家提供安装使用。    
 
 ###### 作品截图     
 ![three_soft](https://raw.githubusercontent.com/gacjie/btpanel_three_soft/main/three_soft.jpg)   
 
 ###### 项目收录  
-宝塔frpc插件：https://github.com/sang8052/btpanel_frpc
-宝塔frps插件：https://github.com/sang8052/btpanel_frps
+宝塔frpc插件：https://github.com/sang8052/btpanel_frpc    
+宝塔frps插件：https://github.com/sang8052/btpanel_frps    
 
 ###### 技术交流
 技术教程：www.baota.me  
