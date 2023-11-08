@@ -1,4 +1,4 @@
-# btpanel_three_soft
+# btpanel_open_soft
 
 ###### 简单介绍
 这是一个宝塔插件，独立于宝塔软件商店的一个插件商店。支持安装，修复，更新。   
@@ -11,7 +11,7 @@
 由于插件作者并不是每个插件都发布在github上，因此维护版本均有我个人先收集放到自己服务器上为大家提供安装使用。    
 
 ###### 作品截图     
-![three_soft](https://raw.githubusercontent.com/gacjie/btpanel_three_soft/main/three_soft.jpg)   
+![three_soft](https://raw.githubusercontent.com/gacjie/btpanel_open_soft/main/three_soft.jpg)   
 
 ###### 项目收录  
 | 插件名 | 作者 | 项目地址 | 插件介绍 |
