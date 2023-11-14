@@ -28,4 +28,15 @@
 	"home": "https:\/\/github.com\/sang8052",
 	"ps": "内网穿透插件frp的客户端管理插件 将复杂的配置输入集成到图形化<a href=\"https:\/\/blog.szhcloud.cn\/blog\/2022\/08\/06\/frp-client-v3-x-helpdoc\/\" target=\"_blank\" class=\"btlink\"> &gt;详细教程<\/a>",
 	"download": "https:\/\/codeload.github.com\/sang8052\/btpanel_frpc\/zip\/refs\/heads\/main"
+}
+, {
+	"id": 4,
+	"name": "cf2dns",
+	"title": "cf2dns",
+	"project": "https:\/\/github.com\/gacjie\/cf2dns",
+	"version": "1.1",
+	"author": "IW3C",
+	"home": "https:\/\/github.com\/gacjie",
+	"ps": "自动化更新CDN优选节点",
+	"download": "https:\/\/github.com\/gacjie\/cf2dns\/releases\/download\/1.1\/cf2dns_1.1.zip"
 }]
